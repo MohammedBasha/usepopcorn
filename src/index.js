@@ -10,7 +10,7 @@ function Test() {
         <div>
             <StarRating
                 color="blue"
-                maxRating={10}
+                maxRating={5}
                 onSetRating={setMovieRating}
             />
             <p>This movie was rated {movieRating} stars</p>
